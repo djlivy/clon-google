@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.header{
+    height: 10vh;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#centro{
+    margin-bottom: 255px;
+}
+#logo{
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+
+input.busqueda{
+    background-color: transparent;
+    border-radius: 30px;
+    width: 540px;
+    height: 41px;
+    border: 1px solid #dfe1e5;
+    color: white;
+    background-image: url('lupa.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px center; /* eje x, eje y */
+    padding-left: 30px;
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    margin: 20px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.centrado#padding{
+    padding-bottom: 20px;
+}
+
+.footer{
+background-color: #dadce0;
+color: #70757a;
+padding: 10px;
+height: 7vh;
+}
+
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.link:hover{
+    color:lightgrey
+}
+
